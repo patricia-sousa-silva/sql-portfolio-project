@@ -1,0 +1,4 @@
+/*
+Seed data for Clinic Appointments DB
+Insert sample rows for testing queries.
+*/
