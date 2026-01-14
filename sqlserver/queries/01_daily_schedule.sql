@@ -1,0 +1,2 @@
+--Query 01: Daily schedule by professional
+--Objective: list appointments for a given professional and day, including computed end time.
