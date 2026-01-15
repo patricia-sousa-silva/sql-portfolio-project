@@ -27,6 +27,14 @@ CREATE TABLE dbo.professionals
   CONSTRAINTS FK_professionals_specialties
     FOREIGN KEY (speciality_id) REFERENCES dbo.specialties(speciality_id)
   );
+
+CREATE TABLE dbo.patients
+  patient_id INT IDENTITY (1,1) PRIMARY KEY,
+  full_name NVARCHAR(255) NOT NULL
+  birth_date DATE
+  email NVARCHAR(100)
+  phone NVARCHAR(20)
+  created_at DATETIME2 NOT NULL
   
   
 GO
