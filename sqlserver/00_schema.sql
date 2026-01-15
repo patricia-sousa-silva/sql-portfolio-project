@@ -13,5 +13,7 @@ Notes: Schema creation (tables, PKs, FKs, constraints)
 CREATE TABLE dbo.specialities(
   speciality_id INT IDENTITY (1,1) PRIMARY KEY,
   speciality_name NVARCHAR(80) NOT NULL
+  default_duration
+  base_price
   );
 GO
